@@ -76,18 +76,17 @@
         android:layout_centerHorizontal="true"
         />
 
-    <Button
-        android:id="@+id/login_register_btn"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="@string/register_here"
-        android:textColor="@color/blue"
-        android:textSize="15dp"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="40dp"
-        android:layout_below="@+id/login_btn"
-        style="@style/Widget.MaterialComponents.Button.TextButton"
-        />
+        <Button
+            android:id="@+id/login_register_btn"
+            style="@style/Widget.MaterialComponents.Button.TextButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/login_btn"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="40dp"
+            android:text="@string/register_here"
+            android:textColor="@color/blue"
+            android:textSize="15dp" />
 
     </RelativeLayout>
 </ScrollView>
