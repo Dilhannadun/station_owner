@@ -1,9 +1,18 @@
 <resources>
     <string name="app_name">station_owner</string>
+    <string name="back">Back</string>
     <string name="login_title">Station Owner Login</string>
     <string name="lg_ph_username">User Name</string>
     <string name="lg_ph_password">Password</string>
     <string name="lg_btn">Login</string>
     <string name="forgot_password">Forgot Password?</string>
     <string name="register_here"> Register Here</string>
+
+    <string name="register_title">Station Owner Registration</string>
+    <string name="register_owner_name_ph">Station owner\'s name</string>
+    <string name="register_station_id_ph">Station Id</string>
+    <string name="register_location_ph">Station location</string>
+    <string name="register_owner_username_ph">Username</string>
+    <string name="register_owner_password_ph">Password</string>
+    <string name="register_btn">Register</string>
 </resources>
