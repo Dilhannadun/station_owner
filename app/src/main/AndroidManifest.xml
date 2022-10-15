@@ -10,6 +10,11 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Station_owner">
         <activity
+            android:name=".HomeActivity"
+            android:exported="true"
+            android:label="@string/title_activity_fuel_status"
+            android:theme="@style/Theme.Station_owner.NoActionBar" />
+        <activity
             android:name=".BackBtnActivity"
             android:exported="true" />
         <activity
