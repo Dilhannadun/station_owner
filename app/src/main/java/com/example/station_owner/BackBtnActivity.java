@@ -13,18 +13,15 @@ public class BackBtnActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_back_btn);
-
+        onClickBackBtn();
+    }
+    public void onClickBackBtn(){
         backBtn = (Button) findViewById(R.id.back_btn);
         backBtn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                onClickBackBtn();
+               BackBtnActivity.super.onBackPressed();
             }
         });
-
-    }
-    public void onClickBackBtn(){
-        Intent intent = new Intent(this,MainActivity.class);
-        startActivity(intent);
     }
 }

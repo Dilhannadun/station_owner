@@ -6,6 +6,11 @@
     android:layout_height="match_parent"
     tools:context=".HomeActivity">
 
+    <include
+        android:id="@+id/profile_btn_of_home"
+        layout="@layout/activity_profile_btn"
+        />
+
     <FrameLayout
         android:id="@+id/container"
         android:layout_width="match_parent"
