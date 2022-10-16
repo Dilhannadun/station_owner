@@ -10,6 +10,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Station_owner">
         <activity
+            android:name=".ProfileActivity"
+            android:exported="true" />
+        <activity
             android:name=".ProfileBtnActivity"
             android:exported="true"
             android:label="@string/title_activity_profile_btn"

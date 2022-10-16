@@ -2,6 +2,7 @@ package com.example.station_owner;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.MenuItem;
 import android.view.View;
@@ -31,11 +32,17 @@ public class ProfileBtnActivity extends AppCompatActivity {
 
                 popup.setOnMenuItemClickListener(new PopupMenu.OnMenuItemClickListener() {
                     public boolean onMenuItemClick(MenuItem item) {
-                        Toast.makeText(
-                                ProfileBtnActivity.this,
-                                "You Clicked : " + item.getTitle(),
-                                Toast.LENGTH_SHORT
-                        ).show();
+                        if(item.getItemId() == R.id.profile_item){
+                            Intent intent = new Intent(getApplicationContext(),ProfileActivity.class);
+                            startActivity(intent);
+                        }else{
+                            Toast.makeText(
+                                    ProfileBtnActivity.this,
+                                    "Logging Out",
+                                    Toast.LENGTH_SHORT
+                            ).show();
+                        }
+
                         return true;
                     }
                 });
