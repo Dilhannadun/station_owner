@@ -41,6 +41,8 @@ public class ProfileBtnActivity extends AppCompatActivity {
                                     "Logging Out",
                                     Toast.LENGTH_SHORT
                             ).show();
+                            Intent intent = new Intent(getApplicationContext(),MainActivity.class);
+                            startActivity(intent);
                         }
 
                         return true;
