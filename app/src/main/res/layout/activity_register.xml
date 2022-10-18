@@ -30,7 +30,7 @@
         android:id="@+id/owner_name"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:hint="@string/register_owner_name_ph"
+        android:hint="@string/register_owner_nic_ph"
         android:layout_marginTop="50dp"
         android:layout_below="@+id/register_title">
         <com.google.android.material.textfield.TextInputEditText

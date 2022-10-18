@@ -9,7 +9,7 @@
     <string name="register_here"> Register Here</string>
 
     <string name="register_title">Station Owner Registration</string>
-    <string name="register_owner_name_ph">Station owner\'s name</string>
+    <string name="register_owner_nic_ph">Station owner\'s NIC</string>
     <string name="register_station_id_ph">Station Id</string>
     <string name="register_location_ph">Station location</string>
     <string name="register_owner_username_ph">Username</string>
@@ -33,6 +33,14 @@
     <string name="hello_first_fragment">Hello first fragment</string>
     <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
 
+
+    <string name="arrival">Arrival</string>
+    <string name="arrived_btn">Arrived</string>
+    <string name="finished">Finished</string>
+    <string name="finished_btn">Finished</string>
+
     <string name="profile_title">Your Profile</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
 
 </resources>
